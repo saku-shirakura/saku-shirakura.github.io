@@ -1,0 +1,39 @@
+.btn-user_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 127px;
+    width: 127px;
+    border-radius: 50%;
+}
+
+.user_icon {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+}
+
+.user_full_name {
+    text-align: center;
+}
+
+.social_icon_a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social_icon {
+    height: 64px;
+    width: 64px;
+}
+
+.social_icon:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition: 1s;
+}
+
+.profile_tray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
