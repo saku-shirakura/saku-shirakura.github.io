@@ -1,4 +1,4 @@
-import {FULL_NAME, MY_ICON} from "./CONSTANTS_MY_PROFILE";
+import {FULL_NAME, MY_ICON} from "../CONSTANTS_MY_PROFILE";
 import "./MyProfile.css"
 import {FaGithub, FaXTwitter} from "react-icons/fa6";
 import React, {useState} from "react";
