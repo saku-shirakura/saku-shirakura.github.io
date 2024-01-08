@@ -13,6 +13,7 @@ export const Header = () => {
                         <NavDropdown title="Clocks" id={`navbar`}>
                             <NavDropdown.Item onClick={event => {navigate("/star_orbit_clock/")}}>星の軌道時計(適当)</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav onClick={event => {navigate("/signup")}}>Signup</Nav>
                         <Nav onClick={event => {navigate("/login")}}>Login</Nav>
                     </Container>
                 </Navbar>

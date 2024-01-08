@@ -6,6 +6,7 @@ import {Footer} from "./parts/Footer";
 import "bootstrap/dist/css/bootstrap.min.css"
 import {StarOrbitClock} from "./page/StarOrbitClock";
 import {Login} from "./page/Login";
+import {Signup} from "./page/Signup";
 
 export const App = () => {
     return (
@@ -15,6 +16,7 @@ export const App = () => {
                 <Routes>
                     <Route path="/" element={<MyProfile/>}/>
                     <Route path="/star_orbit_clock/" element={<StarOrbitClock/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
                     <Route path="/login" element={<Login/>}/>
                 </Routes>
                 <Footer/>
